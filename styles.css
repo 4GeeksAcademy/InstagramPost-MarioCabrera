@@ -1,0 +1,39 @@
+body{
+    background-color: black;
+    font-family: "Roboto", sans-serif;
+}
+.icons{
+    font-size: 30px;
+}
+div.post-header{
+    display: flex;
+    padding: 15px;
+}
+.name h4{
+    margin: 0 ;
+}
+.name{
+    padding-left: 10px;
+    width: 95%;
+}
+.ig-post{
+    background-color: white;
+    width: 35%;
+    height: 100%;
+    margin: 40px auto;
+}
+.post-img img{
+    width: 100%;
+}
+.post-body{
+    margin: 8px;
+}
+.post-body .icons div{
+    display: inline-block;
+}
+.likes{
+    width: 90%;
+}
+.description{
+    padding-bottom: 20px;
+}
