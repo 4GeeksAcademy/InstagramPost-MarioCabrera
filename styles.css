@@ -11,12 +11,10 @@ div{
 .post-header{
     display: flex;
     padding: 15px;
+    justify-content: space-between;
 }
 .post-header div{
     display: inline-block;
-}
-#options{
-    margin-left: auto;
 }
 .name h4{
     margin: 0 ;
@@ -38,10 +36,11 @@ div{
 }
 .post-body .icons{
     display: flex;
+    justify-content: space-between;
 }
 .likes{
-    margin: 5px;
+    display: flex;
 }
-.bookmark{
-    margin-left: auto;
+.likes div{
+    margin-right: 5px;
 }
